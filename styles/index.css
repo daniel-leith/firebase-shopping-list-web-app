@@ -1,6 +1,6 @@
-@import "_variables.css";
-@import "_boilerplate.css";
-@import "_components.css";
+@import "./_variables.css";
+@import "./_boilerplate.css";
+@import "./_components.css";
 
 .cart {
   display: flex;
