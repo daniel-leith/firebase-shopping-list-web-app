@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en-JM">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Daniel Leith" />
+    <meta name="description" content="A simple Firebase shopping cart" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Firebase | Shopping Cart</title>
+    <link
+      rel="icon"
+      href="https://png.pngtree.com/png-clipart/20230601/original/pngtree-cute-cat-vector-png-image_9175327.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script type="module" src="javascript/index.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="cart">
+        <img
+          class="cart__image"
+          src="https://png.pngtree.com/png-clipart/20230601/original/pngtree-cute-cat-vector-png-image_9175327.png"
+          alt="Cute Cat Waving Vector Art"
+        />
+        <input
+          id="item-name-input"
+          class="cart__input"
+          type="text"
+          placeholder="Item Name"
+          autocomplete="off"
+        />
+        <button id="add-item-button" class="cart__button" type="submit">
+          Add to Cart
+        </button>
+        <ul class="cart__items-container" id="shopping-list"></ul>
+      </div>
+    </main>
+  </body>
+</html>

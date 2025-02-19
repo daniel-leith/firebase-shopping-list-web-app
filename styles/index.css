@@ -1,0 +1,64 @@
+@import "_variables.css";
+@import "_boilerplate.css";
+@import "_components.css";
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin-block: 1.25rem;
+  max-width: 20rem;
+  padding-block: 4rem;
+  padding-inline: 2rem;
+
+  .cart__image {
+    display: block;
+    margin-inline: auto;
+    width: 9.375rem;
+  }
+
+  .cart__input {
+    background-color: #dce1eb;
+    color: #432000;
+    margin-block: 0.75rem;
+    text-align: center;
+  }
+
+  .cart__input:focus {
+    outline: none;
+  }
+
+  .cart__button {
+    color: #fdfdfd;
+    background-color: #ac485a;
+    transition: background-color 0.15s;
+  }
+
+  .cart__button:hover {
+    background-color: #432000;
+  }
+
+  .cart__items-container {
+    color: #432000;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+    .item {
+      background-color: #fffdf8;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.0625rem rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      padding: 1rem 2rem;
+      transition: background-color 0.15s;
+    }
+
+    .item:hover {
+      background-color: #ffecc7;
+    }
+  }
+}

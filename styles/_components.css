@@ -1,0 +1,12 @@
+input,
+button {
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+  padding-block: 0.75rem;
+}
+
+button {
+  cursor: pointer;
+}
