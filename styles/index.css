@@ -1,5 +1,6 @@
 :root {
   --primary-font: "Rubik", sans-serif;
+  --site-brown: #432000;
 }
 
 html,
@@ -52,7 +53,7 @@ button {
 
   .cart__input {
     background-color: #dce1eb;
-    color: #432000;
+    color: var(--site-brown);
     margin-block: 0.75rem;
     text-align: center;
   }
@@ -68,11 +69,11 @@ button {
   }
 
   .cart__button:hover {
-    background-color: #432000;
+    background-color: var(--site-brown);
   }
 
   .cart__items-container {
-    color: #432000;
+    color: var(--site-brown);
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;

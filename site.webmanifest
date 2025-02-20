@@ -1,0 +1,12 @@
+{
+  "name": "Firebase | Shopping Cart",
+  "short_name": "Firebase | Shopping Cart",
+  "icons": [
+    {
+      "url": "https://png.pngtree.com/png-clipart/20230601/original/pngtree-cute-cat-vector-png-image_9175327.png"
+    }
+  ],
+  "theme_color": "#eef0f4",
+  "background_color": "#eef0f4",
+  "display": "standalone"
+}
