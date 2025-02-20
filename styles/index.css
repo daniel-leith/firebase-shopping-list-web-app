@@ -1,6 +1,40 @@
-@import "./_variables.css";
-@import "./_boilerplate.css";
-@import "./_components.css";
+:root {
+  --primary-font: "Rubik", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--primary-font);
+}
+
+body {
+  align-items: center;
+  background-color: #eef0f4;
+  display: flex;
+  min-height: 100dvh;
+  justify-content: center;
+  user-select: none;
+  --moz-user-select: none;
+  --webkit-user-select: none;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+  padding-block: 0.75rem;
+}
+
+button {
+  cursor: pointer;
+}
 
 .cart {
   display: flex;
