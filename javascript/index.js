@@ -58,7 +58,7 @@ function getShoppingList() {
 }
 
 function clearShoppingList() {
-  shoppingList.innerHTML = "";
+  shoppingList.innerHTML = null;
 }
 
 function appendItem(currentItem) {
@@ -78,5 +78,5 @@ function appendItem(currentItem) {
 }
 
 function clearInput(inputField) {
-  inputField.value = "";
+  inputField.value = null; // null used to avoid database modification
 }
